@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+    width: 100px;
+    height: 100px;
+    background: #C1A936;
+  }
+  .box1{ 
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background:#FFFCDF;
+    margin:50px 117px
+
+  }
+  .box2{ 
+    width:50px;
+    height:50px;
+    background:#FFFCDF;
+    margin:150px 117px;
+  }
+  
+  
+    .box3{ 
+    width:50px;
+    height:50px;
+    background:#FFF56D;
+    margin:100px 166px;   
+  }
+  .box4{ 
+    width:50px;
+    height:50px;
+    background:#FFF56D;
+    margin:200px 166px; 
+  }
+
+  .box5{ 
+    width:50px;
+    height:50px;
+    background:#FFFCDF;
+    margin:50px 216px; 
+  }
+  .box6{ 
+    width:50px;
+    height:50px;
+    background:#FFFCDF;
+    margin:150px 216px; 
+  }
+  
+  

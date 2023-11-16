@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+
+header{
+    background-image: linear-gradient(180deg, #37C777,#268851,#1A5C38);
+    color: white;  
+    height: 150px;
+    margin-top: -20.9px;
+    margin-right: -8px;
+    margin-left: -10px;
+    border: 0px solid;
+    
+}
+
+body{
+    background-color: #84E1AD;
+} 
+.cabeçalho{ 
+    text-align: center;
+}
+#Titulo-cabeçalho{
+    color: #F1FAF5;
+}
+
+h1{
+    color: #1F5B39;
+    font-family: 'idroid',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitulo {
+    font-family: 'idroid', Verdana, Geneva, Tahoma, sans-serif;
+    color: #1F5B39;
+    background-color: #04e94144;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    margin-left: 15px;
+    margin-top: 140px;
+    color: #F1FAF5;
+    text-decoration: none;
+    
+}
+a:hover {
+    background-color:#37C777 ;
+    
+    
+}
+main{
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 130px;
+    margin-bottom: 5px;
+    margin-left: 120px;
+    padding: 10px 20px;
+    
+}
+
+
+span{
+    color: #1F5B39;
+    
+}
+footer{
+    
+    color: whitesmoke;
+    text-align: center;
+    background-color: #1F5B39 ;
+    margin-right: -8px;
+    margin-left: -10px;
+    margin-bottom: -18px;
+}
+
+#titulo-extra{
+background-color: #2FA866;
+color: white;
+margin-top: -9px;
+margin-left: -10px;
+margin-right: -10px;
+border-radius: 15px 15px 0px 0px;
+padding: 10px;
+}
+
+#conteudo-extra {
+    background-color: #C5EBD6;
+    text-align: left;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+.lista {
+    display: inline-block;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+   
+}
+
+ul{
+    
+    list-style-image: url(imagens/check-symbol-m.png);
+}
+
+
+
+#video{
+    background-color: #1F5B39;
+    margin: 0px -21px 0px -21px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 15px;
+    height: 100%;
+}

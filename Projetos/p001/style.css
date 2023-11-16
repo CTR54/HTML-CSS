@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    text-align: justify;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    
+}
+.Menu-principal{ 
+    text-align: right;
+    color: aliceblue;
+}
+main{
+    background-color: white;
+    color: black;
+    
+    margin-right: 120px;
+    margin-bottom: 25px;
+    margin-left: 120px;
+    padding-top: 35px;
+    padding-right: 18px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 25;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    line-height: 6;
+}
