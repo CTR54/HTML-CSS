@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -30,6 +31,20 @@
         thead, tfoot{
             background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody> tr:nth-child(odd){
+            background-color: white;
+        } /*pode declara apenas uma vezes, com exerção de quando o fundo for de imagem*/
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
 
         td.num{
